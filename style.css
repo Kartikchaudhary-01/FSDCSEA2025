@@ -1,0 +1,40 @@
+body{
+    background-color:bisque
+    ;
+}
+
+h1,h2,h3{
+    background-color: rgb(163, 42, 165);
+    color: rgb(225, 201, 157);
+}
+/* 
+.div p{
+    text-align: center;
+    color:bisque;
+}
+
+
+.div>p{
+    text-align: center;
+    color:bisque;
+}
+
+
+.div+p{
+    text-align: center;
+    color:bisque;
+} */
+/* 
+.div~p{
+    text-align: center;
+    color:bisque;
+} */
+
+/* Assignment */
+/* p:nth-child(){
+    color: aqua;
+}
+
+div p:nth-of-type(){
+    font-size: xx-large;
+} */
