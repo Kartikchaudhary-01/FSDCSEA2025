@@ -3,37 +3,38 @@ body{
     ;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 200px 100px;
-    
+h1,h2,h3{
+    background-color: rgb(163, 42, 165);
+    color: rgb(225, 201, 157);
+}
+/* 
+.div p{
+    text-align: center;
+    color:bisque;
 }
 
-.child1, .child2, .child3, .child4{
-    
-    display: grid;
-    /* grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2; */
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 20px 200px 200px;
-    height: 400px;
-    width: 250px;
-    border: 1px black;
-    border-radius: 6px;
-    background-color: aliceblue;
-    margin: 0px 2px;
+
+.div>p{
+    text-align: center;
+    color:bisque;
 }
 
-.child11, .child12, .child13, .child14, .child21, .child22, .child23, .child24, .child31, .child32, .child33, .child34 ,.child41, .child42, .child43, .child44 {
-    margin: 20px 10px;
-    border: 1 px dotted black;
-    border-radius: 6px;
+
+.div+p{
+    text-align: center;
+    color:bisque;
+} */
+/* 
+.div~p{
+    text-align: center;
+    color:bisque;
+} */
+
+/* Assignment */
+/* p:nth-child(){
+    color: aqua;
 }
 
-img{
-    height: 90px;
-    width: 100px;
-}
+div p:nth-of-type(){
+    font-size: xx-large;
+} */
