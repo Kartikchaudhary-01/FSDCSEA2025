@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form>
+        <label>Enter Name: </label>
+        <input type="text" placeholder="enter here" id="myname"><br>
+        <label>Branch: </label>
+        <input type="text" placeholder="enter here" id="mybranch"><br>
+        <label>Skills: </label>
+        <input type="text" placeholder="enter here" id="myskills"><br>
+        <label>College Name: </label>
+        <input type="text" placeholder="enter here" id="mycollege"><br>
+        <label>University: </label>
+        <input type="text" placeholder="enter here" id="myuniversity"><br><br>
+        <button type="button" onclick="showdata()">Display</button>
+    </form>
+    <div class="present">
+        <div class="name"></div>
+        <div class="branch"></div>
+        <div class="skill"></div>
+        <div class="cllg"></div>
+        <div class="univ"></div>
+        <div id="data"></div>
+    </div>
+    <script>
+        function showdata(){
+            const name = document.getElementById("myname").value;
+            // alert("hi "+name);
+            const branch = document.getElementById("mybranch").value;
+            const skill = document.getElementById("myskills").value;
+            const college = document.getElementById("mycollege").value;
+            const University = document.getElementById("myuniversity").value;
+            display(name,branch,skill,college,University);
+        }
+        
+        function display(name,branch,skill,college,University){
+            document.querySelector(".name").innerHTML = "Name: "+name;
+            document.querySelector(".branch").innerHTML = "Branch: "+branch;
+            document.querySelector(".skill").innerHTML = "Skills: "+skill;
+            document.querySelector(".cllg").innerHTML = "College Name: "+college;
+            document.querySelector(".univ").innerHTML = "University: "+University;
+        }
+
+    </script>
+</body>
+</html>
