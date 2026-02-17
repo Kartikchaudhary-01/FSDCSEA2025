@@ -9,6 +9,7 @@ function mainLayout() {
       <nav>
         <Link style={{fontSize : '30px', color: 'red' }} to='/login'>Login</Link>
         <Link style={{fontSize : '30px', color: 'red' , marginLeft : '25px'}} to='/register'>Registration</Link>
+        <Link style={{fontSize : '30px', color: 'red' , marginLeft : '25px'}} to='/dashboard'>Dashboard</Link>
       </nav>
     </div>
   )
